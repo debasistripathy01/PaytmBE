@@ -20,6 +20,7 @@
     "mongoose": "^8.2.3",
     "nodemon": "^3.1.0",
     "paytmchecksum": "^1.5.1",
+    "short-uuid": "^4.2.2",
     "shortid": "^2.2.16"
   }
 }

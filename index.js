@@ -12,8 +12,9 @@ app.use(bodyParser.urlencoded());
 app.use(express.static(__dirname+"views"))
 
 
-app.get('/orders', async()=>{
+app.get('/orders', async(req, res)=>{
     // initPayment Transaction API that will send me the Token
+    
 })
 
 app.post('/order-data', async()=>{
